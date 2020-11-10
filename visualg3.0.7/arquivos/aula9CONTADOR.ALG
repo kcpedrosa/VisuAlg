@@ -6,10 +6,15 @@ Algoritmo "contador"
 // Data atual  : 09/11/2020
 Var
 // Seção de Declarações das variáveis 
-
+     contador:inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-
+     contador<-0
+     Enquanto (contador<=10) faca
+       Escreval(contador)
+       contador<-contador+1
+     FimEnquanto
+     Escreval("terminei de contar")
 
 Fimalgoritmo
